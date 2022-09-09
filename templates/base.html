@@ -5,34 +5,32 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="{% static 'css/all.css' %}">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-        <!-- Custom -->
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-        <!-- Lightbox -->
-        <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="{% static 'css/all.css' %}" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
+		<!-- Custom -->
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+		<!-- Lightbox -->
+		<link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}" />
 
-		<title>Rental Project</title>
+		<title>Apna Makaan</title>
 	</head>
 	<body>
-        
-        <!-- Topbar -->
-        {% include 'partials/_topbar.html' %}
-        <!-- Navbar -->
-        {% include 'partials/_navbar.html' %}
-        <!-- Main content -->
+		<!-- Topbar -->
+		{% include 'partials/_topbar.html' %}
+		<!-- Navbar -->
+		{% include 'partials/_navbar.html' %}
+		<!-- Main content -->
 
 		{% block content %} {% endblock %}
-        
 
-        <!-- Footer -->
-        {% include 'partials/_footer.html' %}
+		<!-- Footer -->
+		{% include 'partials/_footer.html' %}
 
-        <script src="{% static 'js/jquery-3.3.1.min.js' %} "></script>
-        <script src="{% static 'js/bootstrap.bundle.min.js' %} "></script>
-        <script src="{% static 'js/lightbox.min.js' %} "></script>
-        <script src="{% static 'js/main.js' %} "></script>
+		<script src="{% static 'js/jquery-3.3.1.min.js' %} "></script>
+		<script src="{% static 'js/bootstrap.bundle.min.js' %} "></script>
+		<script src="{% static 'js/lightbox.min.js' %} "></script>
+		<script src="{% static 'js/main.js' %} "></script>
 	</body>
 </html>
