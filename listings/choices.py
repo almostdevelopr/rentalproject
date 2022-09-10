@@ -25,5 +25,5 @@ price_choices = {
 }
 
 state_choices = {
-    'HP': 'Himachal Pradesh'
+    'Himachal Pradesh': 'Himachal Pradesh'
 }
