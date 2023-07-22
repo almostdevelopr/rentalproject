@@ -1,13 +1,14 @@
-{% extends 'base.html' %} {% load static %} {% block title %} | About Us 
+{% extends 'base.html' %} {% load static %} {% block title %} | About Us
 {% endblock %} {% block content %}
 <section id="showcase-inner" class="py-5 text-white">
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-md-12">
-				<h1 class="display-4">About Let's Rent It</h1>
+				<h1 class="display-4">About RentSpace</h1>
 				<p class="lead">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
 					pariatur!
+					{% comment %} idea behind this company {% endcomment %}
 				</p>
 			</div>
 		</div>
@@ -48,7 +49,7 @@
 				</p>
 			</div>
 			<div class="col-md-4">
-				{% if mvp_team_realtors %} 
+				{% if mvp_team_realtors %}
         {% for mvp_team_realtor in mvp_team_realtors%}
 				<div class="card">
 					<img
