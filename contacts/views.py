@@ -36,10 +36,10 @@ def contact(request):
 
         # Send email
         send_mail(
-          'Property Listing Inquiry',
+          'RentScape Inquiry',
           'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info',
           'minhalam.dev@gmail.com',
-          ['sharma.akhil497@gmail.com', 'minhalam.learn@gmail.com'],
+          ['minhazalam365@gmail.com', 'minhalam.learn@gmail.com'],
           fail_silently=False
         )
 
